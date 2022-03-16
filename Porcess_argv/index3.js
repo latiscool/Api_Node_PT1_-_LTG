@@ -5,6 +5,8 @@
 //elementos porque no serán usados en este ejercicio.
 const argumentos = process.argv.slice(2);
 
+// $ node index.js 2 2
+
 //convertir los datos a tipo Number
 let num1 = Number(argumentos[0]);
 let num2 = Number(argumentos[1]);
