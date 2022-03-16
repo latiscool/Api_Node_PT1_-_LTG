@@ -18,7 +18,7 @@ https
     // especificando el evento “data” e imprimiendo la data obtenida de la API formateada a
     // JSON.
     let data = '';
-    resp.on('datos', (chunk) => {
+    resp.on('data', (chunk) => {
       data += chunk;
     });
     resp.on('end', () => {
